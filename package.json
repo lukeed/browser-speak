@@ -1,6 +1,6 @@
 {
   "name": "browser-speak",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simple text-to-speech function in supported browsers",
   "license": "MIT",
   "repository": "lukeed/browser-speak",
@@ -30,6 +30,8 @@
     "xo": "^0.15.0"
   },
   "xo": {
-    "envs": ["browser"]
+    "envs": [
+      "browser"
+    ]
   }
 }
