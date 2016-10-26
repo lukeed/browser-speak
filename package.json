@@ -1,0 +1,35 @@
+{
+  "name": "browser-speak",
+  "version": "0.0.0",
+  "description": "Simple text-to-speech function in supported browsers",
+  "license": "MIT",
+  "repository": "lukeed/browser-speak",
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "lukeed.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "browser",
+    "speech",
+    "speechSynthesis",
+    "text-to-speech",
+    "speak"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "xo": "^0.15.0"
+  },
+  "xo": {
+    "envs": ["browser"]
+  }
+}
